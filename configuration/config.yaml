@@ -1,0 +1,19 @@
+env: qa
+
+qa:
+  base_url: "https://www.saucedemo.com/"
+  username: "standard_user"
+  password: "secret_sauce"
+
+  ollama:
+    url: "http://localhost:11434/api/generate"
+    model: "mistral"
+
+dev:
+  base_url: "https://dev.saucedemo.com/"
+  username: "dev_user"
+  password: "dev_pass"
+
+  ollama:
+    url: "http://localhost:11434/api/generate"
+    model: "mistral"
