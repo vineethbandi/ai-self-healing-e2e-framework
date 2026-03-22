@@ -49,13 +49,11 @@ from small DOM changes and provide actionable diagnostics when tests fail.
 
 ## Quick Start (macOS / Linux)
 
-1. Clone the repo and create your own git remote.
+1. Clone the repo:
 
    ```bash
-   git clone <repo-url>
-   cd <repo>
-   git init
-   git remote add origin git@github.com:youruser/yourrepo.git
+   git clone https://github.com/vineethbandi/ai-self-healing-e2e-framework.git
+   cd ai-self-healing-e2e-framework
    ```
 
 2. Create and activate a Python virtual environment:
