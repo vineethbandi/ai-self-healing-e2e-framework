@@ -70,16 +70,37 @@ from small DOM changes and provide actionable diagnostics when tests fail.
    playwright install
    ```
 
-4. (Optional) Install Allure CLI for HTML reports (macOS example):
+4. Install Ollama (Free Local LLM) — required for AI-powered self-healing.
+   Download: https://ollama.com
+
+   **Download:**
+
+   ```bash
+   curl -fsSL https://ollama.com/install.sh | sh
+   ```
+
+   **Pull Model:**
+
+   ```bash
+   ollama pull mistral
+   ```
+
+   **Run Test:**
+
+   ```bash
+   ollama run mistral
+   ```
+
+5. (Optional) Install Allure CLI for HTML reports (macOS example):
 
    ```bash
    brew install allure
    ```
 
-5. Configure `configuration/config.yaml` for your environment (base_url, credentials,
+6. Configure `configuration/config.yaml` for your environment (base_url, credentials,
    and local LLM endpoint). See the Configuration section below.
 
-6. Run tests:
+7. Run tests:
 
    ```bash
    pytest
